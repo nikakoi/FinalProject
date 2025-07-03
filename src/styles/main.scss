@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.app.light {
+  background-color: #ffffff;
+  color: #222;
+}
+
+.app.dark {
+  background-color: #222;
+  color: #fff;
+}
+.div {
+  padding: 2rem;
+  text-align: center;
+}
+.Home {
+    .h1 {
+        padding: 2rem;
+        text-align: center;
+    }
+ 
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #444;
+
+  a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  button {
+    padding: 0.4rem 0.8rem;
+    border: none;
+    background: #888;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+}
